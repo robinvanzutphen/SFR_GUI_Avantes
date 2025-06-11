@@ -1,5 +1,5 @@
 # SFR_GUI_Avantes
-GUI for Single Fiber Reflectance Spectroscopy (SFR) measuruments with Avantes spectrometers. 
+GUI for Single Fiber Reflectance Spectroscopy (SFR) measuruments with Avantes spectrometers. Designed for in-house (non-clinical) SFR measurements. See other projects for imaging SFR (scanning & hardware timed synchronized acquisition). 
 
 # Acquisition
 Acquisition is currently focussed around two software timed (trigger mode = 0) Avantes spectrometer, one for VIS, one for NIR. By default, upon connection, it uses the full spectral range, but for both spectrometers the start and stop pixels can be adjusted to only reflect the relevant part of the spectrum. It is necessarry that the calibration spectra are acquired with exactly the same spectral range. Both VIS and NIR spectrometers can be operated and controlled indiviudally. 
