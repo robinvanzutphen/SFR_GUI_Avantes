@@ -11,3 +11,6 @@ All data is stored as a csv file with colums: wavelength,counts and also a text 
 
 # Analysis
 When, for the VIS and NIR spectro indidivually, REF and DARK files are present, the reflectance spectrum gets visualized. When also an absolute calibration file is present, it gets converted to absolute reflectance instead of relative to REF. In the analysis tab (upcoming feature), the absolute reflectance spectra can be converted to tissue optical properties. 
+
+# Data management
+The programming is oriented around the two spectrometers objects. A dataclass is initiated for each connected spectrometer which holds the device info, current settings, last acquired spectrum, and the calibration files. 
